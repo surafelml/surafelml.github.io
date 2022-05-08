@@ -103,20 +103,20 @@ analytics:
 # Site Author
 author:
   name             : "Surafel M. Lakew"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A Ph.D. Candidate, working on Multilingual Neural Machine Translation."
-  location         : "Trento, Italy"
-  email            : "lakew@fbk.eu"
+  avatar           : "/assets/images/surafelml_gh_avatar.jpeg"
+  #bio              : "A Ph.D. Candidate, working on Multilingual Neural Machine Translation."
+  location         : "San Francisco Bay Area"
+  email            : "surawinfo@gmail.com"
   links:
-    - label: "MT@FBK"
-      icon: "fas fa-fw fa-link"
-      url: "https://ict.fbk.eu/units/hlt-mt/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:lakew@fbk.eu
+      #url: mailto:surawinfo@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: "https://surafelml.github.io"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/surafelml/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/surafelml"
@@ -136,6 +136,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       #url: "https://twitter.com/surafelml"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/surafelml/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
