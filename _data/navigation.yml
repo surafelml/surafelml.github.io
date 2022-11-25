@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Posts"
+  - title: "Blog"
     url: /blog/
-  - title: "Publications"
-    url: /posts/
+#  - title: "Publications"
+#    url: /posts/
   - title: "About"
     url: /about/
-  - title: "አማርኛ"
-    url: /amharic/
+#  - title: "አማርኛ"
+#    url: /amharic/
     

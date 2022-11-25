@@ -1,8 +1,7 @@
 ---
 title: Blog Posts
-layout: collection
+layout: posts
 permalink: /blog/
 collection: blog
-entries_layout: grid
 classes: wide
 ---
