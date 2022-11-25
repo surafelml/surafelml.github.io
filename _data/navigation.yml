@@ -2,10 +2,10 @@
 main:
   - title: "Blog"
     url: /blog/
+ - title: "About"
+    url: /about/
 #  - title: "Publications"
 #    url: /posts/
-  - title: "About"
-    url: /about/
 #  - title: "አማርኛ"
 #    url: /amharic/
     

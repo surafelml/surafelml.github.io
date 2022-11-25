@@ -1,6 +1,6 @@
 ---
 title: Blog Posts
-layout: posts
+layout: publications
 permalink: /blog/
 collection: blog
 classes: wide

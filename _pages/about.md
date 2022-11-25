@@ -1,65 +1,9 @@
 ---
 permalink: /about/
 title: "About"
-last_modified_at: 2022-11-17T12:04:24-04:00
+last_modified_at: 2022-11-25T12:04:24-04:00
 classes: wide
 ---
-
-[//]: # (### Research Interest)
-
-[//]: # (Multilingual NMT)
-
-[//]: # ({: .btn .btn--primary .btn--small})
-
-[//]: # ()
-[//]: # (Low-Resource NMT)
-
-[//]: # ({: .btn .btn--primary .btn--small})
-
-[//]: # ()
-[//]: # (Multimodal NMT)
-
-[//]: # ({: .btn .btn--primary .btn--small})
-
-
-[//]: # (### Activities)
-
-[//]: # ( - Reviewing: WMT18, IWSLT18.)
-
-[//]: # ( - Course &#40;Ph.D.&#41;: Machine Translation, Research Methodology, Business opportunity recognition &#40;EIT Digital&#41;, Statistical Relational AI.)
-
-[//]: # ( - Summer Schools: 7th Lisbon Machine Learning School [&#40;LxMLS 2017&#41;]&#40;http://lxmls.it.pt/2017/&#41;.)
-
-[//]: # (### Publications)
-
-[//]: # (S. M. Lakew, A. Aerofeeva, M. Federico, “Neural Machine Translation into Language Varieties”, Proceedings of the Third Conference on Machine Translation, Brussels, Belgium, 2018. &#40; -- to appear&#41;)
-
-[//]: # ()
-[//]: # (S. M. Lakew, A. Erofeeva, M. Negri, M. Federico, M. Turchi, “Transfer Learning in Multilingual Neural Machine Translation with Dynamic Vocabulary”. Proceedings of the 15th International  Workshop on Spoken Language Translation, Bruges, Belgium, 2018. &#40;-- to appear&#41;)
-
-[//]: # ()
-[//]: # (S. M. Lakew, M. Federico,  “Adapting Multilingual NMT to Extremely Low Resource Languages, FBK’s Participation in the Basque-English Low Resource MT Task, IWSLT 2018”, Proceedings of the 15th International Workshop on Spoken Language Translation, Bruges, Belgium, 2018. &#40;-- to appear&#41;)
-
-[//]: # ()
-[//]: # (S. M. Lakew, M. Cettolo,  M. Federico, “A Comparison of Transformer and Recurrent Neural Networks on Multilingual Neural Machine Translation“. 5th Italian Conference on Computational Linguistics &#40;CLiC-it&#41;, Torino, Italy, 2018. &#40;-- to appear, in the research communications track&#41;)
-
-[//]: # ()
-[//]: # (S. M. Lakew, M. Cettolo, M. Federico, "A Comparison of Transformer and Recurrent Neural Networks on Multilingual Neural Machine Translation". Proceedings of  the 27th International Conference on Computational Linguistics. Santa Fe, New Mexico, USA, 2018.)
-
-[//]: # ()
-[//]: # (S. M. Lakew, M. Federico, M. Negri, M. Turchi, "Multilingual neural machine translation for low resource languages". The 1st Italian Journal of Computational Linguistics &#40;IJCoL&#41;, Rome, Italy, 2018.)
-
-[//]: # ()
-[//]: # (S. M. Lakew, Q. F. Lotito, M. Turchi, M. Negri,  M. Federico, "Improving Zero-Shot Translation of Low-Resource Languages". Proceedings of the 14th International  Workshop on Spoken Language Translation, pp. 35-41, Tokyo, Japan, 2017. &#40;-- Best paper award&#41;)
-
-[//]: # ()
-[//]: # (S. M. Lakew, Q. F. Lotito, M. Turchi, M. Negri,  M. Federico,  "FBK’s Multilingual Neural Machine Translation System for IWSLT 2017".; Proceedings of the 14th International Workshop on Spoken Language Translation, pp. 113-119, Tokyo, Japan, 2017.)
-
-[//]: # ()
-[//]: # (S. M. Lakew, M. A. Di Gangi, M. Federico, "Multilingual neural machine translation for low resource languages". Proceedings of the 4th Italian Conference on Computational Linguistics &#40;CLIC-IT&#41;, Rome, Dec 2017.)
-
-[//]: # ()
-[//]: # (K. H. Ahmed, S. M. Lakew, M. Pelillo, A. Prati, "Using Dominant Set for Data Association in Multi-Camera Tracking". ICDSC: Proceedings of the 2015 international conference on distributed smart cameras. 2015. pp. 38-43.)
 
 
 ### Bio 
