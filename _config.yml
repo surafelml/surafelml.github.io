@@ -90,7 +90,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https//:twitter.com/surafelml"
+    - "https://twitter.com/surafelml"
 
 # Analytics
 analytics:
@@ -132,6 +132,9 @@ author:
     - label: "Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?user=GEB4LhgAAAAJ&hl=en"
+    - label: "News"
+      icon: "fas fa-fw fa-newspaper"
+      url: "/news/"
 
 # Site Footer
 footer:
