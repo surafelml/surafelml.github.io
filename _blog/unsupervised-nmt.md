@@ -1,7 +1,7 @@
 ---
-last_modified_at: 2018-10-24T16:20:02-05:00
-title: "Phrase-Based & Neural Unsupervised Machine Translation"
-classes: wide
+date: 2018-10-24
+last_modified_at: 2018-10-24
+title: "Paper Review: Phrase-Based & Neural Unsupervised Machine Translation"
 excerpt: "Work investigates how to learn to translate when having access to only monolingual corpora in each language."
 tags: 
   - NMT
@@ -12,6 +12,7 @@ header:
   image: /assets/images/unsupervised-nmt-illustration.PNG
   caption: "Paper: [**Unsupervised NMT**](https://arxiv.org/abs/1804.07755)"
   teaser: /assets/images/unsupervised-nmt-comparision_wmt14_EnFr.PNG
+featured: false
 ---
 
 ### Authors
