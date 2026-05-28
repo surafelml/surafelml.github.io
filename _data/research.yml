@@ -1,0 +1,209 @@
+# Schema:
+#   featured: true        → shown on home page (Research & Publications section)
+#   type: thesis|patent   → renders a small badge (omit for regular papers)
+#   year:                 → required; used for grouping on /research/
+#   authors:              → wrap your name in <u>...</u>
+# Synopsis is optional — enable per entry when extra context helps.
+
+# ── 2023 ────────────────────────────────────────────────────────────
+- title: "Jointly Optimizing Translations and Speech Timing to Improve Isochrony in Automatic Dubbing"
+  featured: true
+  year: "2023"
+  date: "2023"
+  authors: "A. Chronopoulou, B. Thompson, P. Mathur, Y. Virkar, <u>S. M. Lakew</u>, M. Federico"
+  venue: "arXiv:2302.12979"
+  paper_url: "https://arxiv.org/abs/2302.12979"
+
+# ── 2022 ────────────────────────────────────────────────────────────
+- title: "Isometric MT: Neural Machine Translation for Automatic Dubbing"
+  featured: true
+  year: "2022"
+  date: "2022"
+  authors: "<u>S. M. Lakew</u>, Y. Virkar, P. Mathur, M. Federico"
+  venue: "ICASSP 2022"
+  paper_url: "https://arxiv.org/abs/2112.08682"
+  code_url: "https://github.com/amazon-science/isometric-slt"
+  read_more_url: "/blog/isometric-mt/"
+
+- title: "Sockeye 3: Fast Neural Machine Translation with PyTorch"
+  year: "2022"
+  date: "2022"
+  authors: "F. Hieber, M. Denkowski, T. Domhan, B. D. Barros, C. D. Ye, X. Niu, C. Hoang, et al. (incl. <u>S. M. Lakew</u>)"
+  venue: "arXiv:2207.05851"
+  paper_url: "https://arxiv.org/abs/2207.05851"
+
+- title: "Findings of the IWSLT 2022 Evaluation Campaign"
+  year: "2022"
+  date: "2022"
+  authors: "A. Anastasopoulos, L. Barrault, L. Bentivogli, M. Z. Boito, O. Bojar, R. Cattoni, et al. (incl. <u>S. M. Lakew</u>)"
+  venue: "IWSLT 2022"
+  paper_url: "https://aclanthology.org/2022.iwslt-1.10/"
+
+- title: "Systems, Methods, and Apparatuses for Controlling Output Length in Neural Machine Translation"
+  type: patent
+  year: "2022"
+  date: "2022"
+  authors: "M. Federico, M. A. Di Gangi, <u>S. M. Lakew</u>"
+  venue: "US Patent 11,295,081"
+  paper_url: "https://patents.google.com/patent/US11295081B1"
+
+# ── 2021 ────────────────────────────────────────────────────────────
+- title: "Isochrony-Aware Neural Machine Translation for Automatic Dubbing"
+  featured: true
+  year: "2021"
+  date: "2021"
+  authors: "D. Tam, <u>S. M. Lakew</u>, Y. Virkar, P. Mathur, M. Federico"
+  venue: "arXiv:2112.08548"
+  paper_url: "https://arxiv.org/abs/2112.08548"
+
+- title: "Machine Translation Verbosity Control for Automatic Dubbing"
+  featured: true
+  year: "2021"
+  date: "2021"
+  authors: "<u>S. M. Lakew</u>, M. Federico, Y. Wang, C. Hoang, Y. Virkar, R. Barra-Chicote, R. Maas"
+  venue: "ICASSP 2021"
+  paper_url: "https://arxiv.org/abs/2103.10532"
+  code_url: "https://github.com/awslabs/sockeye/pull/1048"
+
+- title: "Self-Learning for Zero-Shot Neural Machine Translation"
+  featured: true
+  award: "Best Paper"
+  year: "2021"
+  date: "2021"
+  authors: "<u>S. M. Lakew</u>, M. Negri, M. Turchi"
+  venue: "LoResMT @ MT Summit 2021"
+  paper_url: "https://arxiv.org/abs/2103.05951"
+
+# ── 2020 ────────────────────────────────────────────────────────────
+- title: "Multilingual and Customized Neural Machine Translation"
+  featured: true
+  type: thesis
+  year: "2020"
+  date: "Apr 2020"
+  image: "/assets/images/phd_thesis_slide_0.png"
+  authors: "<u>Surafel M. Lakew</u>"
+  venue: "PhD Thesis, University of Trento & FBK HLT-MT Lab"
+  advisor: 'Advised by <a href="https://www.marcellofederico.net/">Marcello Federico</a>'
+  synopsis: "My doctoral thesis investigates approaches to improve the performance of neural machine translation models for language pairs without large-scale training data. This work explores zero-shot translation, verbosity control, and isochrony-aware models for automatic dubbing."
+  paper_url: "https://github.com/surafelml/phd-thesis"
+  code_url: "https://github.com/surafelml"
+
+- title: "Low Resource Neural Machine Translation: A Benchmark for Five African Languages"
+  year: "2020"
+  date: "2020"
+  authors: "<u>S. M. Lakew</u>, M. Negri, M. Turchi"
+  venue: "arXiv:2003.14402"
+  paper_url: "https://arxiv.org/abs/2003.14402"
+  code_url: "https://github.com/surafelml/Afro-NMT"
+
+# ── 2019 ────────────────────────────────────────────────────────────
+- title: "Controlling the Output Length of Neural Machine Translation"
+  year: "2019"
+  date: "2019"
+  authors: "<u>S. M. Lakew</u>, M. A. Di Gangi, M. Federico"
+  venue: "IWSLT 2019"
+  paper_url: "https://aclanthology.org/2019.iwslt-1.31/"
+
+- title: "Adapting Multilingual Neural Machine Translation to Unseen Languages"
+  year: "2019"
+  date: "2019"
+  authors: "<u>S. M. Lakew</u>, A. Karakanta, M. Federico, M. Negri, M. Turchi"
+  venue: "IWSLT 2019"
+  paper_url: "https://aclanthology.org/2019.iwslt-1.16/"
+
+- title: "Multilingual Neural Machine Translation for Zero-Resource Languages"
+  year: "2019"
+  date: "2019"
+  authors: "<u>S. M. Lakew</u>, M. Federico, M. Negri, M. Turchi"
+  venue: "arXiv:1909.07342"
+  paper_url: "https://arxiv.org/abs/1909.07342"
+
+# ── 2018 ────────────────────────────────────────────────────────────
+- title: "A Comparison of Transformer and Recurrent Neural Networks on Multilingual Neural Machine Translation"
+  year: "2018"
+  date: "2018"
+  authors: "<u>S. M. Lakew</u>, M. Cettolo, M. Federico"
+  venue: "COLING 2018"
+  paper_url: "https://aclanthology.org/C18-1054/"
+
+- title: "Transfer Learning in Multilingual Neural Machine Translation with Dynamic Vocabulary"
+  year: "2018"
+  date: "2018"
+  authors: "<u>S. M. Lakew</u>, A. Erofeeva, M. Negri, M. Federico, M. Turchi"
+  venue: "IWSLT 2018"
+  paper_url: "https://aclanthology.org/2018.iwslt-1.8/"
+  code_url: "https://github.com/surafelml/adapt-mnmt"
+
+- title: "Multilingual Neural Machine Translation for Low-Resource Languages"
+  year: "2018"
+  date: "2018"
+  authors: "<u>S. M. Lakew</u>, M. Federico, M. Negri, M. Turchi"
+  venue: "IJCoL 2018"
+  paper_url: "https://doi.org/10.4000/ijcol.531"
+
+- title: "Neural Machine Translation into Language Varieties"
+  year: "2018"
+  date: "2018"
+  authors: "<u>S. M. Lakew</u>, A. Erofeeva, M. Federico"
+  venue: "WMT 2018"
+  paper_url: "https://aclanthology.org/W18-6316/"
+
+- title: "Adapting Multilingual NMT to Extremely Low Resource Languages: FBK's Participation in the Basque-English Low-Resource MT Task"
+  year: "2018"
+  date: "2018"
+  authors: "<u>S. M. Lakew</u>, M. Federico"
+  venue: "IWSLT 2018"
+  paper_url: "https://aclanthology.org/2018.iwslt-1.24/"
+
+# ── 2017 ────────────────────────────────────────────────────────────
+- title: "Improving Zero-Shot Translation of Low-Resource Languages"
+  featured: true
+  award: "Best Paper"
+  award_url: "/blog/iwslt-2017-best-paper/"
+  year: "2017"
+  date: "2017"
+  authors: "<u>S. M. Lakew</u>, Q. F. Lotito, M. Negri, M. Turchi, M. Federico"
+  venue: "IWSLT 2017"
+  paper_url: "https://aclanthology.org/2017.iwslt-1.16/"
+  code_url: "https://github.com/surafelml/improving-zeroshot-nmt"
+  read_more_url: "/blog/2017-12-01-improving-zst-lrl/"
+
+- title: "FBK's Multilingual Neural Machine Translation System for IWSLT 2017"
+  year: "2017"
+  date: "2017"
+  authors: "<u>S. M. Lakew</u>, Q. F. Lotito, M. Turchi, M. Negri, M. Federico"
+  venue: "IWSLT 2017"
+  paper_url: "https://aclanthology.org/2017.iwslt-1.5/"
+
+# ── 2015 ────────────────────────────────────────────────────────────
+- title: "Multi-Camera Multi-Target Tracking Using Relaxation Processes"
+  featured: true
+  type: thesis
+  year: "2015"
+  date: "Mar 2015"
+  authors: "<u>Surafel M. Lakew</u>"
+  venue: "MSc Thesis, Ca' Foscari University of Venice"
+  advisor: "Advised by Marcello Pelillo &amp; Andrea Prati"
+  synopsis: "My masters thesis focuses on multi-camera, multi-target tracking framed as a game-theoretic relaxation labeling problem. Targets are detected via a probabilistic occupancy map, then consistently labeled across views using a replicated-labels extension to handle limited cross-camera visibility."
+  paper_url: "https://github.com/surafelml/msc-thesis"
+  code_url: "https://github.com/surafelml/msc-thesis"
+
+- title: "Using Dominant Sets for Data Association in Multi-Camera Tracking"
+  year: "2015"
+  date: "2015"
+  authors: "A. K. Hamid, <u>S. M. Lakew</u>, M. Pelillo, A. Prati"
+  paper_url: "https://dl.acm.org/doi/10.1145/2789116.2789126"
+  venue: "ICDSC 2015"
+
+# Template for a new paper:
+# - title: ""
+#   featured: true                            # show on home page
+#   year: "YYYY"                              # required (for /research/ grouping)
+#   date: "YYYY" or "Mon YYYY"                # display date
+#   authors: "X, <u>S. M. Lakew</u>, Y"       # wrap your name in <u>
+#   venue: "ACL 2024"
+#   paper_url: ""
+#   code_url: ""
+#   # synopsis: "1-2 sentence summary."       # uncomment when useful
+#   # type: thesis|patent                     # adds a badge
+#   # image: "/assets/images/your-image.png"  # omit for placeholder

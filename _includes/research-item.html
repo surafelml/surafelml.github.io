@@ -1,0 +1,22 @@
+<div class="research-item">
+  <div class="research-item-image">
+    {% if include.project.image %}
+      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}">
+    {% else %}
+      <div class="item-placeholder"><i class="fas {% if include.project.type == 'thesis' %}fa-book{% else %}fa-file-alt{% endif %}"></i></div>
+    {% endif %}
+  </div>
+  <div class="research-item-content">
+    <h3 class="research-item-title">{{ include.project.title }}{% if include.project.type == "thesis" %} <span class="research-item-badge">Thesis</span>{% elsif include.project.type == "patent" %} <span class="research-item-badge">Patent</span>{% endif %}{% if include.project.award %} {% if include.project.award_url %}<a class="research-item-badge research-item-badge--award" href="{{ include.project.award_url }}">🏆 {{ include.project.award }}</a>{% else %}<span class="research-item-badge research-item-badge--award">🏆 {{ include.project.award }}</span>{% endif %}{% endif %}</h3>
+    {% if include.project.authors %}<div class="research-item-authors">{{ include.project.authors }}</div>{% endif %}
+    {% if include.project.venue %}<div class="research-item-venue">{{ include.project.venue }}{% if include.project.advisor %} <span class="venue-sep">|</span> {{ include.project.advisor }}{% endif %}</div>{% endif %}
+    {% if include.project.synopsis %}<div class="research-item-synopsis">{{ include.project.synopsis | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+    <div class="research-item-links">
+      {% if include.project.date %}<span class="item-date">{{ include.project.date }}</span>{% endif %}
+      {% if include.project.paper_url %}<a href="{{ include.project.paper_url }}"><i class="fas fa-file-alt"></i> Paper</a>{% endif %}
+      {% if include.project.code_url %}<a href="{{ include.project.code_url }}"><i class="fab fa-github"></i> Code</a>{% endif %}
+      {% if include.project.demo_url %}<a href="{{ include.project.demo_url }}"><i class="fas fa-play-circle"></i> Demo</a>{% endif %}
+      {% if include.project.read_more_url %}<a href="{{ include.project.read_more_url }}"><i class="fas fa-link"></i> Read More</a>{% endif %}
+    </div>
+  </div>
+</div>

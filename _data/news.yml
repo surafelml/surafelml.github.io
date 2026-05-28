@@ -1,0 +1,115 @@
+- date: "2025–present"
+  emoji: "🚀"
+  text: "Research contributions to **[Amazon Quick](https://aws.amazon.com/quick/)** — an agentic AI assistant for work."
+
+- date: "2024"
+  emoji: "🚀"
+  text: "Research contributions to **[Amazon Q](https://aws.amazon.com/q/business/)** — an enterprise conversational AI assistant."
+
+- date: "Sep 2023"
+  emoji: "📣"
+  text: "Program Co-Chair of the [1st International Workshop on Human-in-the-Loop Applied Machine Learning (HITLAML)](https://hitlaml.uni.lu/), University of Luxembourg."
+
+- date: "Aug 2023"
+  emoji: "📄"
+  text: "Paper [Jointly Optimizing Translations and Speech Timing to Improve Isochrony in Automatic Dubbing](https://arxiv.org/abs/2302.12979) at **Interspeech 2023**."
+
+- date: "Sep 2022"
+  emoji: "📄"
+  text: "Paper [Isochrony-Aware Neural Machine Translation for Automatic Dubbing](https://www.amazon.science/publications/isochrony-aware-neural-machine-translation-for-automatic-dubbing) published at [InterSpeech 2022](https://www.interspeech2022.org/)."
+
+- date: "Jul 2022"
+  emoji: "📄"
+  text: "Paper [Sockeye 3: Fast Neural Machine Translation with PyTorch](https://arxiv.org/abs/2207.05851) released."
+
+- date: "May 2022"
+  emoji: "📄"
+  text: "Paper [Isometric MT: Neural MT for Automatic Dubbing](https://arxiv.org/pdf/2112.08682.pdf) published at [ICASSP 2022](https://2022.ieeeicassp.org/)."
+
+- date: "May 2022"
+  emoji: "📄"
+  text: "Co-authored the [Findings of the IWSLT 2022 Evaluation Campaign](https://aclanthology.org/2022.iwslt-1.10/)."
+
+- date: "May 2022"
+  emoji: "🧩"
+  text: "Co-organized the [Isometric Spoken Language Translation shared task](https://github.com/amazon-science/isometric-slt) at **IWSLT 2022**."
+
+- date: "Apr 2022"
+  emoji: "🎤"
+  text: "Invited talk at University of Luxembourg on [multilingual neural machine translation](https://github.com/surafelml/talks/blob/main/machine-translation/multilingual_mt_april_2022.pdf)."
+
+- date: "Sep 2021"
+  emoji: "📄"
+  text: "Paper [Machine Translation Verbosity Control for Automatic Dubbing](https://arxiv.org/pdf/2110.03847.pdf) published at [ICASSP 2021](https://www.2021.ieeeicassp.org/)."
+
+- date: "Aug 2021"
+  emoji: "🏆"
+  text: "Paper [Zero-Shot Neural Machine Translation with Self-Learning Cycle](https://aclanthology.org/2021.mtsummit-loresmt.10/) at [LoResMT 2021](https://sites.google.com/view/loresmt/home) — _best paper award_."
+
+- date: "2021"
+  emoji: "🤝"
+  text: "Joined the [Lacuna Fund Language Technical Advisory Panel](https://lacunafund.org/language-technical-advisory-panel/)."
+
+- date: "Aug 2020"
+  emoji: "🚀"
+  text: "Started as an Applied Scientist at Amazon AI."
+
+- date: "Apr 2020"
+  emoji: "🎓"
+  text: "Defended my [doctoral dissertation](https://surafelml.github.io/phd-thesis/thesis/thesis-slides-lakew.pdf)."
+
+- date: "Mar 2020"
+  emoji: "📄"
+  text: "Paper [Low Resource Neural Machine Translation: A Benchmark for Five African Languages](https://arxiv.org/abs/2003.14402) released, with [code](https://github.com/surafelml/Afro-NMT)."
+
+- date: "Nov 2019"
+  emoji: "📄"
+  text: "Paper [Controlling the Output Length of Neural Machine Translation](https://aclanthology.org/2019.iwslt-1.31/) at **IWSLT 2019**."
+
+- date: "Nov 2019"
+  emoji: "📄"
+  text: "Paper [Adapting Multilingual Neural Machine Translation to Unseen Languages](https://aclanthology.org/2019.iwslt-1.16/) at **IWSLT 2019**."
+
+- date: "Sep 2019"
+  emoji: "📄"
+  text: "Paper [Multilingual Neural Machine Translation for Zero-Resource Languages](https://arxiv.org/abs/1909.07342) released."
+
+- date: "Apr 2019"
+  emoji: "🌐"
+  text: "Started internship as an Applied Scientist at Amazon AI."
+
+- date: "Nov 2018"
+  emoji: "✍️"
+  text: "Blog: [Neural Machine Translation into Language Varieties and Dialects](https://medium.com/machine-translation-fbk/neural-machine-translation-into-language-varieties-5421941d417e)."
+
+- date: "Oct 2018"
+  emoji: "📄"
+  text: "Paper [Transfer Learning in Multilingual NMT with Dynamic Vocabulary](https://aclanthology.org/2018.iwslt-1.8/) at **IWSLT 2018**, with [code](https://github.com/surafelml/adapt-mnmt)."
+
+- date: "Oct 2018"
+  emoji: "📄"
+  text: "Paper [Adapting Multilingual NMT to Extremely Low Resource Languages](https://aclanthology.org/2018.iwslt-1.24/) at **IWSLT 2018**."
+
+- date: "Aug 2018"
+  emoji: "📄"
+  text: "Paper [A Comparison of Transformer and Recurrent Neural Networks on Multilingual NMT](https://aclanthology.org/C18-1054/) at **COLING 2018**."
+
+- date: "Jun 2018"
+  emoji: "📄"
+  text: "Paper [Multilingual Neural Machine Translation for Low-Resource Languages](https://doi.org/10.4000/ijcol.531) published in **IJCoL**."
+
+- date: "Dec 2017"
+  emoji: "🏆"
+  text: "Paper [Improving Zero-Shot Translation of Low-Resource Languages](https://aclanthology.org/2017.iwslt-1.16/) at **IWSLT 2017** — _best paper award_."
+
+- date: "Dec 2017"
+  emoji: "📄"
+  text: "Paper [FBK's Multilingual Neural Machine Translation System for IWSLT 2017](https://aclanthology.org/2017.iwslt-1.5/) at **IWSLT 2017**."
+
+- date: "2015"
+  emoji: "📄"
+  text: "Paper [Using Dominant Sets for Data Association in Multi-Camera Tracking](https://dl.acm.org/doi/10.1145/2789116.2789126) at **ICDSC 2015**."
+
+- date: "Mar 2015"
+  emoji: "🎓"
+  text: "Defended my [MSc thesis](https://github.com/surafelml/msc-thesis) at Ca' Foscari University of Venice."

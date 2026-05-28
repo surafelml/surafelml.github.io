@@ -1,42 +1,59 @@
 ---
 ---
-
 <!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
-  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
-    {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
-
-    <div class="initial-content">
-      {{ content }}
-    </div>
-
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
-
-    {% include_cached scripts.html %}
-
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  {% capture page_desc %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip | truncate: 160 }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+  <meta name="description" content="{{ page_desc }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:image" content="{{ site.og_image | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.layout == 'single' %}article{% else %}website{% endif %}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.twitter.username }}">
+  <meta name="twitter:creator" content="@{{ site.twitter.username }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ page_desc }}">
+  <meta name="twitter:image" content="{{ site.og_image | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  {% feed_meta %}
+  {% if site.analytics.provider == "google-gtag" and site.analytics.google.tracking_id and jekyll.environment == "production" %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics.google.tracking_id }}'{% if site.analytics.google.anonymize_ip %}, { 'anonymize_ip': true }{% endif %});
+  </script>
+  {% endif %}
+  <script>(function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}());</script>
+</head>
+<body class="layout--{{ page.layout }}{% if page.classes %} {{ page.classes }}{% endif %}">
+  {% include masthead.html %}
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><i class="fas fa-adjust" id="theme-icon"></i></button>
+  <main id="main">{{ content }}</main>
+  <footer class="site-footer">© {{ site.time | date: '%Y' }} Surafel M. Lakew</footer>
+  <script>
+  (function(){
+    var btn=document.getElementById('theme-toggle');
+    function apply(dark){
+      document.documentElement.setAttribute('data-theme',dark?'dark':'light');
+      btn.style.opacity=dark?'1':'0.5';
+    }
+    apply(document.documentElement.getAttribute('data-theme')==='dark');
+    btn.addEventListener('click',function(){
+      var dark=document.documentElement.getAttribute('data-theme')!=='dark';
+      apply(dark);
+      localStorage.setItem('theme',dark?'dark':'light');
+    });
+  }());
+  </script>
+</body>
 </html>

@@ -1,0 +1,25 @@
+# R&D Projects shown on the home page (and a future /projects/ archive).
+# Schema:
+#   title:        required
+#   emoji:        representative emoji (optional; defaults to 🛠️)
+#   description:  1-line description (markdown supported)
+#   url:          GitHub / project link
+#   tech:         e.g. "Python, PyTorch"   (optional)
+#   year:         "YYYY"                    (optional)
+#   status:       e.g. "active", "archived" (optional)
+
+- title: "Automatic Dubbing"
+  emoji: "🎬"
+  description: "A research hub tracking progress on automatic dubbing — isometric and isochrony-aware translation, verbosity control, and speech-timing models."
+  url: "https://github.com/surafelml/Automatic-Dubbing"
+  year: "2021-2024"
+  status: "archived"
+
+# Example (uncomment and edit):
+# - title: "Project Name"
+#   emoji: "🛠️"
+#   description: "What it does in one sentence."
+#   url: "https://github.com/surafelml/project"
+#   tech: "Python, PyTorch"
+#   year: "2025"
+#   status: "active"

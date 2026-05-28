@@ -1,11 +1,9 @@
 # main links
 main:
+  - title: "News"
+    url: /#news
+  - title: "Research"
+    url: /#research
   - title: "Blog"
-    url: /blog/
-  - title: "About"
-    url: /about/
-#  - title: "Publications"
-#    url: /posts/
-#  - title: "አማርኛ"
-#    url: /amharic/
+    url: /#blog
     
