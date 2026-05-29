@@ -8,6 +8,13 @@
 #   year:         "YYYY"                    (optional)
 #   status:       e.g. "active", "archived" (optional)
 
+- title: "AI Safety & Security"
+  emoji: "🛡️"
+  description: "A living reference for the safety and security of agentic AI systems — book, review papers, and open-source R&D. Read the book: <https://surafelml.github.io/ai-safety-security/>."
+  url: "https://github.com/surafelml/ai-safety-security"
+  year: "2026–present"
+  status: "active"
+
 - title: "Automatic Dubbing"
   emoji: "🎬"
   description: "A research hub tracking progress on automatic dubbing — isometric and isochrony-aware translation, verbosity control, and speech-timing models."
