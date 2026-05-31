@@ -236,3 +236,10 @@ pre code { font-size: 1em; }
 
 /* ── Site footer ─────────────────────────────────────────── */
 .site-footer { max-width: 900px; margin: 0 auto; padding: 1.5rem 1.5rem 2rem; text-align: center; font-size: 0.75em; color: var(--text-faint); }
+.site-footer a { color: var(--text-faint); text-decoration: none; }
+.site-footer a:hover { color: var(--text-muted); text-decoration: underline; }
+
+/* ── Disclaimer page (compact) ───────────────────────────── */
+.disclaimer-content { font-size: 0.85em; color: var(--text-dim); }
+.disclaimer-content h2 { font-size: 1em; margin: 1.4rem 0 0.3rem; }
+.disclaimer-content p { margin: 0 0 0.6rem; }
