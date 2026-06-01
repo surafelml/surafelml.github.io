@@ -193,6 +193,8 @@ a.research-item-badge--award:hover { background: rgba(255, 193, 7, 0.25); }
 .post-content { flex: 1; min-width: 0; }
 .post-title { font-size: 1.5em; margin: 0 0 0.3rem; line-height: 1.25; font-weight: 600; }
 .post-body { font-size: 1.05em; line-height: 1.7; color: var(--text-body); }
+.post-tldr { border-left: 4px solid var(--border-table); padding: 0.65rem 1rem; background: rgba(0, 0, 0, 0.04); margin: 0 0 1.5rem; line-height: 1.5; }
+[data-theme="dark"] .post-tldr { background: rgba(255, 255, 255, 0.05); }
 .post-figure { margin: 1.5rem 0; max-width: 340px; }
 .post-figure--wide { max-width: 480px; }
 .post-figure--full { max-width: 100%; }
