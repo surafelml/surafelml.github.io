@@ -15,6 +15,14 @@
   year: "2026–present"
   status: "active"
 
+- title: "NN Timeline"
+  emoji: "🧠"
+  description: "Neural network architectures through time (revamped) — derivations, reference code, and history from the 1943 neuron to today's agentic systems. Read the notes: <https://surafelml.github.io/nn-timeline/>."
+  url: "https://github.com/surafelml/nn-timeline"
+  tech: "Python, PyTorch"
+  year: "2025–present"
+  status: "active"
+
 - title: "Automatic Dubbing"
   emoji: "🎬"
   description: "A research hub tracking progress on automatic dubbing — isometric and isochrony-aware translation, verbosity control, and speech-timing models."
