@@ -19,7 +19,7 @@ author_profile: false
   </p>
 </div>
 
-I'm a researcher at [Amazon AWS AI](https://www.amazon.science/author/surafel-melaku-lakew), where I currently contribute to [Amazon Quick](https://aws.amazon.com/quick/) - an agentic AI assistant for work, previously on [Amazon Q](https://aws.amazon.com/q/business/) - an enterprise conversational assistant, and [Amazon Translate](https://aws.amazon.com/translate/) - custom translation and automatic dubbing. I hold a PhD from [University of Trento](http://ict.unitn.it/) & [FBK Institute](https://www.fbk.eu/), where my thesis focuses on [multilingual and custom neural machine translation](https://github.com/surafelml/phd-thesis).
+I'm a researcher at [Amazon AWS AI](https://www.amazon.science/author/surafel-melaku-lakew), where I currently contribute to [Amazon Quick](https://aws.amazon.com/quick/) - an agentic AI assistant for work, previously on [Amazon Q](https://aws.amazon.com/q/business/) - an enterprise conversational assistant, and [Amazon Translate](https://aws.amazon.com/translate/) - custom translation and automatic dubbing. I hold a PhD from [University of Trento](http://ict.unitn.it/) & [FBK Institute](https://www.fbk.eu/), where my thesis focuses on [multilingual and custom neural machine translation](https://github.com/surafelml/phd-thesis), advised by [Marcello Federico](https://www.marcellofederico.net/).
 
 <p class="focus-label">Research Focus</p>
 <ul class="focus-list">
