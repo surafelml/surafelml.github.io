@@ -15,9 +15,5 @@ node_modules
 npm-debug.log*
 jekyll_serve*.log
 vendor/
-
-# Local-only Claude / planning notes
-.claude/
 .tracker/
-sml_update_plan.md
-CLAUDE.local.md
+.claude/
