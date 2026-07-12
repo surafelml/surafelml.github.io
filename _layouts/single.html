@@ -12,6 +12,9 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.last_modified_at %}
+        &middot; Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>
+      {% endif %}
       {% if page.tags.size > 0 %}
         &middot;
         {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
