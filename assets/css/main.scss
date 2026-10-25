@@ -20,6 +20,13 @@
   --link-notice-border: #007bb5;
   --tag-bg: #f0f0f0;
   --tag-text: #555;
+  --ok: #2e7d32;
+  --ok-bg: rgba(46, 125, 50, 0.045);
+  --warn: #9a6700;
+  --warn-bg: rgba(154, 103, 0, 0.05);
+  --danger: #c0392b;
+  --danger-bg: rgba(192, 57, 43, 0.045);
+  --illus-accent: #2f5fae;
 }
 
 [data-theme="dark"] {
@@ -40,6 +47,13 @@
   --link-notice-border: #58a6ff;
   --tag-bg: #21262d;
   --tag-text: #8b949e;
+  --ok: #4caf50;
+  --ok-bg: rgba(76, 175, 80, 0.07);
+  --warn: #d3a012;
+  --warn-bg: rgba(211, 160, 18, 0.07);
+  --danger: #e0584a;
+  --danger-bg: rgba(224, 88, 74, 0.07);
+  --illus-accent: #6c96e8;
 }
 
 /* ── Reset ───────────────────────────────────────────────── */
@@ -195,6 +209,8 @@ a.research-item-badge--award:hover { background: rgba(255, 193, 7, 0.25); }
 .post-body { font-size: 1.05em; line-height: 1.7; color: var(--text-body); }
 .post-tldr { border-left: 4px solid var(--border-table); padding: 0.65rem 1rem; background: rgba(0, 0, 0, 0.04); margin: 0 0 1.5rem; line-height: 1.5; }
 [data-theme="dark"] .post-tldr { background: rgba(255, 255, 255, 0.05); }
+.post-tldr--blue { border-left-color: var(--link-notice-border); background: var(--bg-notice); }
+[data-theme="dark"] .post-tldr--blue { background: var(--bg-notice); }
 .post-figure { margin: 1.5rem 0; max-width: 340px; }
 .post-figure--wide { max-width: 480px; }
 .post-figure--full { max-width: 100%; }
@@ -235,6 +251,18 @@ pre code { font-size: 1em; }
 
 /* ── Notices ─────────────────────────────────────────────── */
 .notice--info { background: var(--bg-notice); border-left: 4px solid var(--link-notice-border); padding: 1rem 1.25rem; border-radius: 0 4px 4px 0; }
+
+/* ── Callouts (semantic ok/warn/danger) ─────────────────── */
+.callout { border-left: 2px solid var(--callout-border); background: var(--callout-bg); padding: 0.6rem 0.9rem; border-radius: 0 4px 4px 0; margin: 0 0 1.2rem; font-size: 0.85em; line-height: 1.5; color: var(--text-faint); }
+.callout p:last-child, .callout ul:last-child { margin-bottom: 0; }
+.callout-label { display: block; font-weight: 600; letter-spacing: 0.03em; font-size: 0.72em; margin-bottom: 0.3rem; color: var(--callout-border); opacity: 0.9; }
+.callout--ok { --callout-border: var(--ok); --callout-bg: var(--ok-bg); }
+.callout--warn { --callout-border: var(--warn); --callout-bg: var(--warn-bg); }
+.callout--danger { --callout-border: var(--danger); --callout-bg: var(--danger-bg); }
+
+/* ── Figure captions (scannable-illustration track) ──────── */
+.fig-cap { font-size: 0.82em; color: var(--text-faint); text-align: center; line-height: 1.45; margin: -0.75rem 0 1.5rem; padding: 0 1rem; }
+.fig-cap b { color: var(--text-muted); font-weight: 700; }
 
 /* ── Site footer ─────────────────────────────────────────── */
 .site-footer { max-width: 900px; margin: 0 auto; padding: 1.5rem 1.5rem 2rem; text-align: center; font-size: 0.75em; color: var(--text-faint); }
